@@ -1,3 +1,9 @@
+import subprocess
+
+# Install the dependencies from the requirements.txt file
+subprocess.run(['pip', 'install', '-r', 'requirements.txt'])
+
+# Continue with the rest of the code
 import requests
 import pandas as pd
 
