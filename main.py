@@ -7,7 +7,7 @@ subprocess.run(['pip', 'install', '-r', 'requirements.txt'])
 import requests
 import pandas as pd
 
-league_id = "insert league id here"
+league_id = "916378932067508224"
 base_url = "https://api.sleeper.app/v1/league"
 
 # Retrieve data from API endpoints
